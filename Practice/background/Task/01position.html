@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        
+        
+        div[class*=box]{
+            
+            height: 300px;
+            width: 300px;
+            border: 2px solid red;
+            position: absolute;
+        }
+        .box-a1{
+            position: relative;
+            top: -50px;
+            right: -50px;
+            background-color: aqua;
+            /* border-color: black; */
+             
+        }
+        .box-a2{
+            position: relative;
+            top: -50px;
+            left: -50px;
+            background-color: brown;
+            /* border-color: blue; */
+        
+         }
+         .box-a3{
+            position: relative;
+            bottom: -50px;
+            right:  -50px;
+            background-color: cadetblue;
+            /* border-color: chocolate; */
+            
+         }
+         .box-a4{
+            position: relative;
+            bottom: -50px;
+            left: -50px;
+            background-color: chocolate;
+            /* border-color: chartreuse; */
+            /* z-index: 1; */
+         }
+         .box-a5{
+            position: relative;
+            top: 150px;
+            left: 500px;
+            background-color: chartreuse;
+            /* z-index: 2; */
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+        <div class="box-a1"></div>
+        <div class="box-a2"></div>
+        <div class="box-a3"></div>
+        <div class="box-a4"></div>
+        <div class="box-a4"></div>
+        <div class="box-a5"></div>
+    </div>
+
+    
+    
+</body>
+</html>

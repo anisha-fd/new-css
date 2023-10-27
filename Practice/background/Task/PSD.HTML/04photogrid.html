@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo grid</title>
+    <style>
+        *{
+            margin: 0 ;
+            padding: 0 ;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .grid{
+            height: 100vh;
+            display: grid;
+            grid-auto-rows: 5px;
+            /* grid-template-columns: 1ft 1ft 1ft; */
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: minmax(100px,auto);
+            gap: 10px;
+
+        }
+        .box-1{ 
+            background: url(../../../../books-1655783_1280.jpg)no-repeat center center/cover;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            
+        }
+        .box-2{
+            background: url(../../../../roses-1566792_1280.jpg)no-repeat center center/100% 100%;
+            grid-column:2/4;
+            grid-row: 1/4;
+
+        }
+        .box-3{
+            background: url(../../../../plouzane-1758197_1280.jpg)no-repeat center center/cover;
+            grid-column: 3/4;
+            grid-row: 2/2;
+        }
+        .box-4{
+            background: url(../../../../lighthouse-2611199_1280.jpg)no-repeat center center/cover;
+            grid-column: 1/2;
+            grid-row: 2/2;
+        }
+        .box-5{
+            background: url(../../../../poppies-174276_1280.jpg)no-repeat center center/cover; 
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .box-6{
+            background: url(../../../../bridge-192986_1280.jpg)no-repeat center center/cover; 
+            grid-column: 1/4;
+            grid-row: 3/4;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="grid">
+        <div class="box-1">Box-1</div>
+        <div class="box-2">Box-2</div>
+        <div class="box-3">Box-3</div>
+        <div class="box-4">Box-4</div>
+        <div class="box-5">Box-5</div>
+        <div class="box-6">Box-6</div>
+        <!-- <div class="box-7">Box-7</div> -->
+        <!-- <div class="box-8">Box-8</div> -->
+    </div>
+    
+
+    
+</body>
+</html>

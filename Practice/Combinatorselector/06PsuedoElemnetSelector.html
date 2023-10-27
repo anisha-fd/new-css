@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Element Selector</title>
+    <style>
+        h1::before{
+            content: "before";
+            background-color: magenta;
+            color: aqua;
+        }
+        h1::after{
+            content: "after";
+            background-color:lightpink;
+            color: black;
+        }
+        p::first-letter{
+            background-color: blueviolet;
+            color: aqua;
+            font-size: 90px;
+        }
+        p::selection{
+            background-color: chocolate;
+            color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Psuedo Element Selector(::)</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure a in temporibus omnis voluptates?
+         Quasi rerum mollitia odio, eos magni suscipit quisquam laborum adipisci deserunt nisi! Accusamus,
+         unde minus!
+    </p>
+    
+</body>
+</html>

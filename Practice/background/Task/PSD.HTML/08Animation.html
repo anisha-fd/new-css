@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            animation-name: Anisha;
+            /* background:url(../../../../roses-1566792_1280.jpg)no-repeat cover cover/center; */
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes Anisha{
+            0%{
+               background:url(../../../../roses-1566792_1280.jpg)no-repeat  center center/cover;
+               border-radius: 30px;
+               margin-left: 0px;
+               margin-top: 0px;
+
+            }
+            20%{
+                background:url(../../../../Army.jpg)no-repeat center center/cover;
+                border-radius: 40px;
+                margin-right: 50px;
+                margin-top:50px ;
+            }
+            40%{
+                background:url(../../../../bridge-192986_1280.jpg)no-repeat center center/cover;
+                border-radius: 50px;
+                margin-left: 50px;
+                margin-top: 300px;
+
+            }
+            60%{
+                background:url(../../../../books-1655783_1280.jpg)no-repeat center center/cover;
+                border-radius: 60px;
+                margin-left: 500px;
+                margin-top: 400px;
+            }
+            80%{
+                background:url(../../../../lighthouse-2611199_1280.jpg)no-repeat center center/cover;
+                border-radius: 70px;
+                margin-left: 600px;
+                margin-top: 400px;
+            }
+            100%{
+                background:url(../../.././../poppies-174276_1280.jpg)no-repeat center center/cover;
+                border-radius: 700px;
+                 margin-left: 700px;
+                 margin-top: 500px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>

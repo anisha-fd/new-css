@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in CSS</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+            text-align: center;
+            
+        }
+        table,td{
+            border: 1px solid blue;
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 800px;
+            height:800px ;
+        }
+        td{
+            padding: 20px;
+        }
+        /* tr:nth-child(even){ */
+         tr:nth-child(odd){
+          /* tr:nth-child(2n){ */
+          /* tr:nth-child(2n+1){ */
+             /* tr:nth-child(3n+1){ */
+            background-color: cadetblue;
+            color: blue;
+
+        }
+        tr:nth-child(even){
+            background-color: aqua;
+            color: brown;
+        }
+        .responsive-table{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            border: 10px solid red;
+            overflow: hidden;
+            overflow: scroll;
+
+        }
+        body{
+            background-color: coral;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Table in CSS</h1>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    
+</body>
+</html>

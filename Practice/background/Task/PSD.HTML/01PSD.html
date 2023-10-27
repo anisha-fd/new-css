@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PSD Website</title>
+    <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+       integrity=""
+       crossorigin="anonymous"
+       referrerpolicy="no-referrerpolicy"
+    />   
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            
+        }
+        .nav{
+            
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+            padding: 50px;
+            
+        }
+        ul li{
+            font-size: 25px;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "poppins";
+            
+        }
+        ul li{
+            justify-content: space-around;
+            display: inline;
+            padding: 20px;
+            font-size: 25px;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            font-family: "poppins";
+            text-align: center;
+        }
+        .font{
+            margin: 30px;
+            padding: 30px;
+            font-family: "archivo";
+            color: white;
+            font-size: 35px;
+
+        }
+        button{
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-align: center;
+            border-radius: 30px;
+            background-color: rgb(248,13,13);
+            color: white;
+            border: color 1px black;
+        }
+        header{
+            background-image: url(../../../../Image/Image\ \(1\).png) ;
+            height: 650px;
+            width: 100%;
+            
+            
+        }
+        .nav-menu ul li a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .middle{
+            background-color: bisque;
+            text-align: center;
+            color: red;
+            padding: 100px 0 20px;
+            font-size: 20px;
+            position: relative;
+
+        }
+        .round{
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+        .text{
+            display: flex;
+            justify-content:center;
+            gap: 80px;
+            color: red;
+        }
+    
+        .ph-1{
+    
+        position: absolute;
+        left: 200px;
+        top: 50px;
+        }
+        .ph-2ms{
+            position: absolute;
+            right: 400px;
+            bottom: 60px ;
+        }
+        .ph-3{
+            position: absolute;
+            left: 300px;
+            bottom: 0 auto;
+        
+        }
+        .ph-4{
+            position:absolute ;
+            left: 20px auto ;
+            bottom: 400px; 
+
+        }
+        .ph-5{
+            position: absolute;
+            top: 20px;
+            right: 100px;
+          
+        }
+        .ph-6ca{
+            position: relative;
+            bottom: 250px;
+            left:  550px;
+        }
+        .burger-1{
+            background-color: red;
+            display: flex;
+            /* font-size: 20px;
+            margin: 0 auto;  */
+            /* margin-left: 100px; */
+        }
+        .burger{
+            /* margin: ; */
+            background-color: red;
+            font-size: 20px;
+            margin: 100px auto;
+            margin-left: 100px;
+            
+
+        }
+        .bg-2{
+            margin: 150px auto;
+            color: white;
+            font-size: 30px;
+
+        }
+        button{
+            background-color: white;
+            color: red;
+            font-size: 20px;
+            font-weight: 800px;
+            border: none;
+        }
+        .burger-2{
+            padding: 100px 10px 30px;
+            padding-bottom: 100px;
+            background-color:bisque;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            
+            
+        }
+        .bg-3{
+        
+            
+            text-align: justify;
+            font-size: 30px;
+            color: red;
+            margin-left: 100px;
+            margin: 80px auto;
+            
+            
+            
+        }
+  
+        .white-2{
+            
+            margin-right: 100px;
+         }
+         .masroom{
+            position: absolute;
+            bottom: 50px;
+            left: 500px;
+            
+            
+
+         }
+         .leaf{
+            position: absolute;
+            right: 50px;
+    
+         }
+         .ff{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+         }
+         .bb{
+            position: absolute;
+            top: 10px;
+            right: 600px;
+         }
+         .kap{
+            position: absolute;
+            left: -20px;
+        
+         }
+         .oni{
+            position: absolute;
+            left: 20px;
+            bottom: 50px;
+         }  
+         .page-5{
+            background-color: red;
+            padding: 50px;
+
+         }
+         .round-5{
+            color: white;
+            text-align: center;
+            font-size:  xx-large;
+         }
+         .main-box{
+            margin: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            
+            
+            
+            
+         }
+         .box-1{
+            border: 4px solid white;
+            border-radius: 160px;
+            height: 180px;
+            width: 180px;
+            padding-bottom: 30px;
+            font-size: 30px;
+            
+         }
+         .box-2{
+            border:4px solid white ;
+            border-radius:160px ;
+            height:180px ;
+            width: 180px;
+            font-size: 30px;
+            
+         }
+         .box-3{
+            border: 4px solid white;
+            border-radius:120px ;
+            height: 180px;
+            width: 180px;
+            font-size: 30px;
+         }
+         .page-6{
+            padding: 90px;
+            background-color: bisque;
+            color: red;
+            font-size: xx-large;
+            text-align: center;
+            position: relative;
+         }
+         .card{
+            display: flex;
+            justify-content: space-between;
+            
+         }
+         .ig-1m{
+            position: absolute;
+            bottom: 10px;
+            
+         }
+         .ig-2{
+            position: absolute;
+            top: 10px;
+            left: 250px;
+
+         }
+         .ig-3f{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            
+         }
+         .ig-4b{
+            position: absolute;
+            right: 100px;
+            top: 0px;
+
+         }
+         .ig-5k{
+            position: absolute;
+            top: 100px;
+            left: 5px;
+         }
+         .ig-6o{
+            position: absolute;
+            right: -5px;
+            top: 190px;
+         }
+         .page-7{
+            background-image: url(../../../../big\ image.png);
+            color: white;
+            text-align: center;
+            padding: 200px;
+        
+         }
+         .loremm{
+            font-size: xx-large;
+            text-decoration: solid;
+            
+         }
+         .page-8{
+            background-color: bisque;
+            color: red;
+            font-size: x-large;
+            text-align: center;
+            padding: 150px;
+            position: relative;
+            padding: 200px;
+            
+            
+            
+         }
+         .heding-1{
+            border: 10px;
+            border-radius: 10px;
+            
+
+         }
+         /* .emailBT{
+            font-size: x-small;
+            border-radius: 20px;
+            position: relative;
+            opacity: 0.502;
+    
+            text-align: center; */
+            
+            
+         
+         /* .sub-1{
+            position: absolute;
+            top: 1%;
+            left: 55%;
+            width: 222px;
+            height: 65px;
+            border-radius: 30px;
+            background-color: #f64b3c; */
+            
+         .photos{
+            position: relative;
+         }
+         .photo-1m{
+            position: absolute;
+            top: -500px;
+            left: 100px;
+            
+
+
+         }
+         .photo-2{
+            position: absolute;
+            top: -500px;
+            left: 350px;
+         }
+         .photo-3f{
+            position: absolute;
+            bottom: 50px;
+            left: 70px;
+         }
+         .photo-4b{
+            position: absolute;
+            right: 80px;
+            top: -550px;
+         }
+         .photo-5k{
+            position: absolute;
+            right: 180px;
+            bottom: 30px;
+            
+        }
+        .photo-6o{
+            position: absolute;
+            right: 50px;
+            top: -300px;
+
+        }
+        .photo-7leaf{
+            position: absolute;
+            bottom: 50px;
+            right: 600px;
+        }
+        .photo-8k{
+            position: absolute;
+            left: 600px;
+            top: -550px;
+        }
+        .page-9{
+            padding: 200px;
+            /* margin: -15px; */
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            font-size: larger;
+            
+            
+            /* height: 100%; */
+            
+        }
+        @media (max-width: 768px){
+
+            
+
+        }
+
+
+            
+
+ </style>
+</head>
+<body>
+    <header>
+    <div class="wraper">
+         <div class="content">
+
+            <div class="nav">
+
+                <div class="logo">
+                    <label for=""><img src="../../../../burgerlogo.png">
+                </div>
+                <div class="nav-menu">
+                    <ul>
+            
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Promo</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="font">
+                    <h1><b>Get Cashback<br>
+                        UP to 50%</b></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>
+                      adipisicing elit.Suspendisse consectetur<br>
+                      justo eu nunc consequat. <br></p>
+                      
+                     <button>ORDER NOW</button>
+                       
+                </div>
+            </div>    
+        </div>
+    </header>
+    <div class="middle">
+        <div class="third">
+            <h1>Our Chef</h1>
+            <p>Lorem ipsum dolor sit amet. consectetur adipiscing elit.Vi-<br>
+                   vamus lacina odia vitae vestibulum vestibulum.</p>
+        </div>          
+    <div class="round">
+        <div class="img-1">
+                <img src="../../../../Image (3).png" alt="">
+           </div>  
+         <div class="img-2">
+            <img src="../../../../newpic-11.png" alt="">
+         </div>
+            <div class="img-3">
+                <img src="../../../../Image (1).png" alt="">
+            </div>     
+        </div>
+   <div class="text">
+        <div class="text-1">
+            <h2>AIDEN HUNTER</h2>
+            <P>Founder</P>
+        </div>
+        <div class="text-2">
+            <h2>ETHEL RAMSEY</h2>
+            <P>Co-Founder</P>
+        </div>
+        <div class="text-3">
+            <h2>FANNIE STEWAET</h2>
+            <P>Co-Founder</P>
+        </div>
+
+        </div>
+        <div class="image">
+            <div class="ph-1">
+            <img src="../../../../Vector Smart Object (6).png" alt="">
+            </div>
+            <div class="ph-2ms">
+            <img src="../../../../Vector Smart Object (1).png" alt="">
+            </div>
+            <div class="ph-3">
+            <img src="../../../../Vector Smart Object (2).png" alt="">
+            </div>
+            <div class="ph-4">
+            <img src="../../../../Vector Smart Object (3).png" alt="">
+            </div>
+            <div class="ph-5">
+            <img src="../../../../Vector Smart Object.png" alt="">
+            </div>
+            <div class="ph-6ca">
+            <img src="../../../../Vector Smart Object (5).png" alt="">
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="burger-1">
+        <div class="burger">
+            <img src="../../../../burgerjumbo.png">
+        </div>
+            <div class="bg-2">
+                <h2>Best Burger</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur<br>
+                 adipiscing elit. Vivamus lacinia odio vitae <br>
+                  vestibulum vestibulum. </p>
+                  <br>
+                 
+                  <button>ORDER NOW</button> 
+                 
+             </div>  
+            
+   </div>
+
+   <div class="burger-2">
+         <div class="bg-3">
+            <h2>Big Burger</h2>
+            <p>Lorem ipsum dolor sit amet,<br>
+             consectetur adipiscing elit. Vivamus <br>
+             lacinia odio vitae vestibulum vestibulum. </p>
+             <br>
+             <button>ORDER NOW</button>
+        </div>
+           <div class="white-2">
+            <img src="../../../../burgerjumbo.png">
+           </div>
+        <div class="image-2" >
+            <div class="masroom">
+            <img src="../../../../Vector Smart Object (1).png">
+            </div>
+            <div class="leaf">
+            <img src="../../../../Vector Smart Object (2).png">
+            </div>
+            <div class="ff">
+            <img src="../../../../Vector Smart Object (3).png">
+            </div>
+            <div class="bb">
+            <img src="../../../../Vector Smart Object.png">
+            </div>
+            <div class="kap">
+            <img src="../../../../Vector Smart Object (5).png">
+            </div>
+            <div class="oni">
+            <img src="../../../../Vector Smart Object (6).png">
+            </div>
+            
+
+        </div>  
+   </div>
+
+   <div class="page-5">
+      <div class="round-5">
+        <h1>Statistics</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+         Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+      </div>
+      <div class="main-box">
+         <div class="box-1">
+        <h1>7k</h1>
+        <p>CUSTOMER</p>
+        </div>
+        <div class="box-2">
+            <h1>109</h1>
+            <p>OUTLETS</p>
+        </div>
+        <div class="box-3">
+            <h1>35</h1>
+            <p>COUNTRY</p>
+        </div>
+      </div>
+      
+      
+   </div>
+
+   <div class="page-6">
+       <div class="p-6">
+        <h2>Popular Package</h2>
+       </div>
+            <div class="card">
+                  <div class="card-1">
+                      <img src="../../../../card-1.png">
+                   </div>
+                 <div class="card-2">
+                       <img src="../../../../card-2.png">
+                  </div>
+                 <div class="card-3">
+                       <img src="../../../../card=3.png">
+                  </div>
+           </div>
+           <div class="ig">
+              <div class="ig-1m">
+                <img src="../../../../Vector Smart Object (1).png">
+              </div>
+              <div class="ig-2">
+                <img src="../../../../Vector Smart Object (2).png">
+              </div>
+              <div class="ig-3f">
+                <img src="../../../../Vector Smart Object (3).png">
+              </div>
+              <div class="ig-4b">
+                <img src="../../../../Vector Smart Object.png">
+              </div>
+              <div class="ig-5k">
+                <img src="../../../../Vector Smart Object (5).png">
+              </div>
+              <div class="ig-6o">
+                <img src="../../../../Vector Smart Object (6).png">
+              </div>
+           </div>
+   </div>
+
+   <div class="page-7">
+    <div class="loremm">
+            <p>Lorem ipsum dolor sit amet, consectetur<br>
+             adipiscing elit. Vivamus lacinia odio vitae<br>
+                 vestibulum vestibulum. </p>
+             <br>
+          <h2>Barry Henderson</h2>   
+
+      </div>
+  </div>
+
+  <div class="page-8">
+    <div class="heding-1">
+        <h2>Don’t miss Our Update</h2><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+             Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+             <br>
+
+            <input type="text" placeholder="your email">
+            <button>SUBSCRIB</button> 
+
+        
+    
+            </div>
+        </div>     
+            <div class="photos">
+                <div class="photo-1m">
+                    <img src="../../../../Vector Smart Object (1).png">
+                </div>
+                <div class="photo-2">
+                    <img src="../../../../Vector Smart Object (2).png">
+                </div>
+                <div class="photo-3f">
+                    <img src="../../../../Vector Smart Object (3).png">
+                </div>
+                <div class="photo-4b">
+                    <img src="../../../../Vector Smart Object.png">
+                </div>
+                <div class="photo-5k">
+                    <img src="../../../../Vector Smart Object (5).png">
+                </div>
+                <div class="photo-6o">
+                    <img src="../../../../Vector Smart Object (6).png">
+                </div>
+                <div class="photo-7leaf">
+                    <img src="../../../../Vector Smart Object (2).png">
+                </div>
+                <div class="photo-8k">
+                    <img src="../../../../Vector Smart Object (5).png">
+                </div>
+            </div> 
+    </div>
+  </div>
+
+
+  
+  <div class="page-9">
+    <div class="title">
+        <h1>Title Here</h1><br>
+        <p>Lorem ipsum dolor sit amet, consectetur<br>
+           adipiscing elit. Aliquam at dignissim nunc,<br>
+          id maximus ex. Etiam nec dignissim elit, at<br> dignissim enim. </p>
+          <br>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+    </div>
+       <div class="title-2">
+        <h2>About</h2><br>
+        <p>Histoey</p>
+        <p>Our Team</p>
+        <p>Brand Guideline</p>
+        <p>Terms& Condition</p>
+        <p>PrivecyPolicy</p>
+       </div>
+
+       <div class="title-3">
+        <h2>Service</h2><br>
+        <p>How to Order</p>
+        <p>Our Product</p>
+        <p>Order Status</p>
+        <p>Promo</p>
+        <P>Payment Method</P>
+       </div>
+       
+       <div class="title-4">
+        <h2>Other</h2><br>
+        <p>Contect Us</p>
+        <p>Help</p>
+        <P>Privacy</P>
+       </div>
+  </div> 
+  
+
+    
+</body>
+</html>

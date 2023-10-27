@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip path</title>
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+
+        }
+        .star{
+            -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            background: url(../../../../Army.jpg);
+        }
+        .star2{
+            -webkit-clip-path: polygon(50% 0%, 65% 28%, 98% 35%, 74% 59%, 79% 91%, 50% 70%, 21% 91%, 26% 60%, 2% 35%, 31% 31%);
+            clip-path: polygon(50% 0%, 65% 28%, 98% 35%, 74% 59%, 79% 91%, 50% 70%, 21% 91%, 26% 60%, 2% 35%, 31% 31%);
+            background: url(../../../../Army.jpg);
+
+
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class=" star"></div><br>
+    <div class="star2"></div>
+</body>
+</html>

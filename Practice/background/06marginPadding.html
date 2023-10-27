@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin padding Box</title>
+    <style>
+        .margin{
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid red;
+            color: blue;
+            margin: 100px;
+            margin: 100px 200px;
+        }
+        .padding{
+            background-color:blueviolet;
+            border: 1px solid yellowgreen;
+            color: aqua;
+            padding: 100px;
+            padding: 100px 200px;
+
+        }
+        div[class*="Box"]{
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border: 10px solid red;
+            padding: 20px;
+        }
+        .Border-Box{
+            box-sizing: border-box;
+            background-color: aqua;
+            
+        }
+        .content-Box{
+            box-sizing: content-box;
+            background-color: cadetblue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="margin">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, ex!</div>
+    <hr>
+    <div class="padding">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, odio?</div>
+    <hr>
+    <div class="Border-Box">border box</div>
+    <div class="content-Box">content box</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
