@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+.contener{
+    display: flex;
+    margin: 0 auto;
+    /* padding: 100%; */
+}
+.col-25{
+    /* padding: 50%; */
+}
+button{
+    background-color: teal;
+    color: white;
+    /* border-radius: 20px; */
+    border: none;
+    /* padding: 20px; */
+    height: 50px;
+    width: 100%;
+}
+.A001{
+   text-align: center;
+}
+.signin{
+    background-color: teal;
+}
+.singin-1{
+    text-align: center;
+    padding: 100px;
+}
+button .btn-2{
+    
+    border: 5px solid white;
+    border-radius: 50px;
+}
+.ball{
+    color: white;
+    text-align: center;
+}
+.signin-2{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .h-1{
+            background-color: cornflowerblue;
+            color: brown;
+            width: 20%;
+            height: 100%;
+            position: fixed;
+            left: 0.1%;
+            z-index: 2;
+
+        }
+        .h-2{
+            background-color: aqua;
+            color: black;
+            width: 20%;
+            height: 120%;
+            position: fixed;
+            right: 0.1%;
+            top: 0px;
+        }
+        .navbar{
+            display: flex;
+            background-color: chocolate;
+            color: black;
+            position: fixed;
+            margin-left: 20%;
+            z-index: 2;
+            width: 60%;
+            justify-content: space-between;
+        }
+        .logo{ 
+            margin: auto;
+         } 
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 100%;
+            width: 60%;
+            padding: 5%;
+            height: 5%;
+
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .p-1{
+            /* position: absolute; */
+            top: 10%;
+            background-color: blueviolet;
+            width: 60%;
+            height: 700px;
+             z-index: 0; 
+            position: sticky;
+            left: 20%;
+            margin-bottom: 10px;
+            font-size: xx-large;
+            /* margin: 10%; */
+        }
+        .p-2{
+            background-color: rgb(43, 226, 43);
+            width: 60%;
+            margin-top: 5%;
+            /* z-index: 2; */
+
+            height: 700px;
+            position: sticky;
+            left: 20%;
+            font-size: x-large;
+        }
+        .p-3{
+            background-color: crimson;
+            width: 60%;
+            margin-top: 4%;
+            /* z-index: 3; */
+
+            height: 700px;
+            position: sticky;
+            left: 20%;
+            font-size: x-large;
+        }
+
+        
+            
+            
+            
+        
+    </style>
+</head>
+<body>
+    
+    <div class="contener">
+        <div class="header">
+            <div class="h-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dignissimos modi, qui dolorum non deserunt.</p>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <div class="logo">
+                        <h1>logo</h1>
+                    </div>
+                    <ul>
+                        <li>Home</li>
+                        <li>About </li>
+                        <li>Contact </li>
+                        <li>Menu</li>
+                        <li>Feedback</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="h-2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quis veniam alias sint odit maxime.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quae, illo vel rerum, ab porro corrupti temporibus impedit minima magnam dolores ipsum accusamus? Porro aliquid culpa voluptatum quisquam debitis. Dolor, soluta. Non fugiat est possimus corporis dolore similique corrupti qui, facilis itaque laborum nam cum at, reprehenderit quo dolorem? Fuga.</div>
+    <div class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis alias? Eveniet eligendi sint consectetur? Voluptatum nisi obcaecati explicabo expedita cupiditate consequatur distinctio maxime aspernatur! Modi vero sed ut accusamus omnis. Inventore vero repellat eos, perspiciatis, sint maiores aliquam a dicta exercitationem illo possimus eum, ipsam iusto vitae dolore quidem!</div>
+    <div class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat rerum esse cupiditate, soluta atque! Laboriosam aperiam modi quis aspernatur quam nulla eaque dolor fugit, delectus, illum quae eos, illo architecto iusto non alias reprehenderit repellendus laudantium ratione labore expedita neque repellat temporibus. Ab dolores debitis consectetur doloribus error ex, nisi harum temporibus quisquam sint necessitatibus eius natus, sed quos ducimus perferendis veritatis corporis blanditiis? Itaque quis, corrupti at iusto eligendi dolore accusamus provident eaque quas unde, delectus eius alias, consequatur fugiat veritatis id sit labore deserunt! Eum placeat totam, voluptatum nemo cum blanditiis inventore commodi laborum eveniet at minus!</div>
+    
+        
+    
+</body>
+</html>

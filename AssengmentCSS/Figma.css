@@ -440,3 +440,72 @@ footer{
 /* opacity: 0.1; */
 /* height: 2px; */
 }
+
+
+
+
+
+
+
+/* here strat mediaQuery ------*/
+
+@media (max-width: 768px){
+   header{
+    width: 100%;
+   }
+    .logo>h2{
+        font-weight: 200;
+    }
+    .menu-1{
+        display: flex;
+
+    }
+    .menu>li{
+      margin-left: 3.203rem;
+      font-weight: 200;
+      
+
+    }  
+    .login{
+        font-size: 10px;
+    }  
+    .btn-1{
+        /* position: absolute; */
+        width: 100%;
+        height: 5.307rem;
+        margin-left: 7.203rem;
+        border: none;
+        background: #ECE6FF;
+        border-radius: 4px;
+        color: #35414B;
+        right: 20px;
+        /* padding: 18px, 16px; */
+    
+    }
+    .text-1{
+        /* font-size: normal; */
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 30px;
+        /* text-align: center; */
+        color: #35414B;
+        width: 30%;
+        margin: 0 auto;
+    }
+    .btn-2{
+        /* border: none; */
+        background: #81C43B;
+        border-radius: 50px;
+        margin-left: 500px;
+        text-align: center;
+        /* padding: 10px 20px; */
+    
+    }
+    .btn-3 {
+        /* background: #F2F9EB; */
+        /* border-radius: 0px 100px 100px 0px; */
+        /* border: none; */
+        /* padding: 10px 30px; */
+    }
+        
+}
