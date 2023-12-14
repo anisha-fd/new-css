@@ -14,7 +14,8 @@ nav{
     /* position: relative; */
 }
 .logo{
-    padding: 30px 100px;
+    /* padding: 30px 100px;/ */
+    padding: 48px 35px;
 }
 .menu{
     display: flex;
@@ -301,7 +302,7 @@ nav{
     height: 50px;
 }
 .img-4{
-    width: 500px;
+    width: 571px;
     height: 500px;
     margin-top: 3.203rem;
 }
@@ -388,7 +389,7 @@ nav{
 }
 
 .box{
-    width: 1110px;
+    width: 1006px;
     height: 224px;
     background: #796EFF;
     border-radius: 16px;
@@ -407,11 +408,11 @@ nav{
 }
 .pic-1{
     position: absolute;
-    right: 15%;
+    right: 14%;
 }
 .pic-2{
     position: absolute;
-    right: 29%;
+    right: 30%;
 }
 
 /* contener-6 close here */
@@ -435,11 +436,7 @@ footer{
 .i-1{
     padding: 7px;
 }
-/* .line{ */
-/* background: #FFFFFF; */
-/* opacity: 0.1; */
-/* height: 2px; */
-}
+
 
 
 
@@ -449,35 +446,71 @@ footer{
 
 /* here strat mediaQuery ------*/
 
-@media (max-width: 768px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
    header{
     width: 100%;
    }
-    .logo>h2{
-        font-weight: 200;
+    .logo{
+        font-weight: 100;
     }
     .menu-1{
+
         display: flex;
+        font-weight:50 ;
 
     }
     .menu>li{
+        display: flex;
       margin-left: 3.203rem;
-      font-weight: 200;
+      font-weight: 300;
+      font-size: 20px;
       
 
     }  
     .login{
-        font-size: 10px;
+        /* font-size: 20px; */
+
     }  
+    .login {
+        margin-left: -163px;
+    }
+    
     .btn-1{
         /* position: absolute; */
-        width: 100%;
-        height: 5.307rem;
-        margin-left: 7.203rem;
+        width: 12%;
+        height: 3.307rem;
+        margin-left: 1.203rem;
         border: none;
-        background: #ECE6FF;
+        /* background: #ECE6FF; */
         border-radius: 4px;
-        color: #35414B;
+        /* color: #35414B; */
         right: 20px;
         /* padding: 18px, 16px; */
     
@@ -485,18 +518,21 @@ footer{
     .text-1{
         /* font-size: normal; */
         font-weight: 100;
-        font-size: 20px;
+        font-size: 36px;
         line-height: 30px;
-        /* text-align: center; */
+        text-align: center;
         color: #35414B;
-        width: 30%;
+        /* width: 30%; */
         margin: 0 auto;
+    }
+    .para-1{
+        font-size: 18px;
     }
     .btn-2{
         /* border: none; */
         background: #81C43B;
         border-radius: 50px;
-        margin-left: 500px;
+        margin-left: 30px;
         text-align: center;
         /* padding: 10px 20px; */
     
@@ -507,5 +543,193 @@ footer{
         /* border: none; */
         /* padding: 10px 30px; */
     }
+    .image{
+        /* width: 700px; */
+        height: 650.29px;
+        margin-left: 10.203rem;
+    }
+    footer{
+        width: 108%;
+    }
         
 }
+
+
+
+
+@media (max-width: 992px){
+    nav{
+        display: flex;
+        width: 100%;
+    }
+    .container-2{
+        width: 105%;
+    }
+    .container-3{
+        width: 105%;
+    }
+    .container-4{
+        width: 105%;
+    }
+    .para-11{
+        margin-left: 45%;
+    }
+    .para-12{
+        margin-left: 35%;
+    }
+    .pic-1{
+        left: 90%;
+    }
+    .pic-2{
+        left: 70%;
+    }
+    footer{
+        width: 120%;
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    .login{
+        margin-left: -200px;
+        height: 50px;
+        width: 50%;
+    }
+    .btn-1{
+        margin-left: 20px;
+        width: 30%;
+        height: 50px;
+    }
+    .save{
+        text-align: center;
+        margin-left:70% ;
+        
+    }
+    .btn-2{
+        width: 135%;
+        height: 50px;
+        font-size: 14px;
+        margin-left: 181%;
+    }
+    .btn-3{
+        width: 100%;
+        height: 50px;
+        margin-left: 135px;
+        font-size: 15px;
+    }
+    .text-1{
+        text-align: center;
+        margin-left: 76%;
+        width: 61%;
+    }
+    .para-1{
+        text-align: center;
+        margin-left: 68%;
+        width: 83%;
+    }
+    .mail{
+        text-align: center;
+        margin-left: 139%;
+    }
+    .btn-4{
+      text-align: center;
+    }
+    .para-2{
+        text-align: center;
+        margin-left: 52%;
+        width: 102%;
+    }
+
+    .text-3>img{
+        margin-left: 50%;
+        margin-inline: auto 0;
+        padding-left: 5%;
+    }
+   .container-3{
+        width: 189%;
+    }
+    .container-4{
+        width: 179%;
+    }
+    .text-4{
+        font-size: 2.205rem;
+    }
+    .para-11{
+        margin-left: 71%;
+    }
+    .para-12{
+        margin-left: 60%;
+    }
+    .ppl-3{
+        
+
+        display: flex;
+        justify-content: space-between;
+        margin-left: 39%;
+        gap: 250px;
+    }
+    .text-5{
+        display: flex;
+        justify-content: space-between;
+        gap: 50%;
+    }
+    .pic-1{
+        left: 157%;
+    }
+    .pic-2{
+        left: 123%;
+    }
+    footer{
+        width: 230%;
+        font-size: 150%;
+    }
+
+
+    
+    
+    }
