@@ -690,8 +690,11 @@ footer{
         margin-inline: auto 0;
         padding-left: 5%;
     }
+    .container-2{
+        width: 180%;
+    }
    .container-3{
-        width: 189%;
+        width: 180%;
     }
     .container-4{
         width: 179%;
