@@ -57,6 +57,11 @@ button{
     height: 40px;
     color: white;
  } 
+ /* --------------------page-1 close here-------------------- */
+
+
+
+ /* ------------------page-2 start here--------------------- */
  .second{
     /* background: url(../../../../secondcoffielogo.png)no-repeat ; */
     background-color: brown;
@@ -82,6 +87,9 @@ button{
     background-color: white;
     color: red;
  }
+ /* ---------------------------page-2 close here------------------ */
+
+ /* ------------------------page-3  start here--------------- */
  .three{
     background-color: bisque;
     color: balck;
@@ -120,6 +128,7 @@ button{
  .text-3 a{
     color: red;
  }
+ /* -----------------page-4 start here--------------------------- */
  #four{
     width: 100%;
     height: 680px;
@@ -312,14 +321,14 @@ button{
      height: 28px;
     margin: 12px 29px;
  }
- .store{
+ /* .store{
     display: block;
     height: 700px;
     width: 100%;
     background-color: #f8eed3;
     /* margin-top: 10px; */
-    
- }
+     */
+ /* }
  .Text-Store{
     text-align: center;
  }
@@ -327,7 +336,7 @@ button{
     color: #b13941;
     font-size: 50px;
     /* padding: 88px 0px 5px; */
- }
+ /* }
  .Text-Store p{
     color: #b13941;
     font-size: 20px;
@@ -339,11 +348,11 @@ button{
     height: 580px;
     margin: auto 0;
     gap: 40px;
- }
+ } */
  .store-box1{
     width: 33.33%;
     position: relative;
- }
+ } */
  .box-top{
     margin-left: 180px;
     width: 100%;
@@ -407,12 +416,12 @@ button{
  }
  .Profile-item{
     display: flex;
-    height: 700px;
+    height: 500px;
     width: 100%;
-    background-image: url(../bg-3.png);
+    background-image: url();
     background-size: cover;
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
  }
  .left-p{
     width: 50%;
@@ -432,7 +441,7 @@ button{
  }
  .Right-P h2{
     font-size: 58px;
-   color: #feedda;
+   color:  #b13941;
     font-weight: 400;
      font-family: "Yeseva One";
    /* margin-bottom: 28px; */
@@ -440,7 +449,7 @@ button{
  }
 .Right-P p{
  font-size: 21px;
-  color: #feedda;
+  color: #181716;
    font-family: "PT Serif";
   margin-bottom: 28px;
   margin: 34px 10px 34px;
@@ -508,6 +517,7 @@ button{
     text-align: center;
     /* margin-top: 40px; */
    }
+   /* -------------------footer is start here------------------------- */
    footer{
     display: block;
     margin: -4px;
@@ -565,4 +575,161 @@ button{
     .Image-2 img{
        margin: 0 10px;
     }
+
+/* -----------footer close here------------ */
+
+
+
+
+
+
+
+/* Media Query  */
+@media (min-width: 1200px){
+      
+   .nav,ul,li{
+      gap: 60px;
+   }
+   .button-1{
+      margin-left: 512px;
+   }
+
+}
+
+/* --------------------------mediaquary-992----------------------- */
+    
+@media (max-width: 992px){
+   .nav,ul,li{
+            
+      gap: 30px;
+      
+  }
+  .box-top img{
+      width: 70%;
+      right: 100px;
+   }
+   .button-1{
+      margin-left: 400px;
+   }
+
+   .footer>.F-center>text.h2{
+      font-size: 0.2028rem;
+   }
+   .footer>.F-left>text.p{
+      font-size: 0.1010rem;
+   }
+   .footer>.F-right{
+      width: 25%;
+   }
+   .footer>.F-center>text{
+      font-size: 1.11rem;
+   }
+   .footer>.F-left{
+      font-size: 1.1111rem;
+   }
+   
+
+}
+/* ----------------------------media-quary 768--------------------------- */
+
+    @media (max-width: 768px){
+      .button-1{
+         margin: auto;
+      }
+      .nav,ul,li{
+            
+            gap: 30px;
+            
+        }
+        .store{
+            display: block;
+            
+            width: 100%;
+            
+            
+         }
+         .footer>.F-center>text.h2{
+            font-size: 0.2028rem;
+         }
+         .footer>.F-left>text.p{
+            font-size: 0.1010rem;
+         }
+         .footer>.F-right{
+            width: 25%;
+         }
+         .footer>.F-center>text{
+            font-size: 1.11rem;
+         }
+         .footer>.F-left{
+            font-size: 1.1111rem;
+         }
+
+     } 
+   /* ---------------------------------mediaquary-576 -------------------------  */
+     @media (max-width: 576px){
+        .bytton-1{
+         text-align: center;
+        }
+        .nav,ul,li{
+            
+            gap: 10px;
+            
+        }
+        .box-top img{
+            width: 70%;
+            right: 100px;
+         }
+         .box-bottom{
+            width: 100%;
+           height: 50%;
+           background-color: #ffffff;
+           text-align: center;
+            /* padding-top: 80px; */
+            /* margin-left: 180px; */
+            /* margin-top: -95px; */
+         }
+         .Text-Store h1{
+            
+            font-size: 20px;
+            
+         }
+         .box-bottom h2{
+            font-size: 15px;
+            position: absolute;
+            left: 28%;
+            top: 40%;
+            color: #b13941;
+            border: 1px solid #b13941;
+            background-color: #feedda;
+            height: 40px;
+            width: 160px;
+            font-weight: 500;
+            left: 234px;
+            top: 204px;
+         }
+         .text-3>h1{
+            font-size: 2.2817rem;
+         }
+         .text-3>p{
+            font-size: 1.1011rem;
+         }
+         .text-3>a{
+            font-size: 1.1rem;
+         }
+         .Profile>.left-p>img{
+            height: 100px;
+            width: 100%;
+         }
+         .footer>text{
+            font-size: 0.98rem;
+         }
+         .footer>.F-center>text{
+            font-size: 0.2011rem;
+         }
+         
+
+     }
+
+         
+         
 
