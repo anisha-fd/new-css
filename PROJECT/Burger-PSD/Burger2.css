@@ -15,7 +15,7 @@ body{
 #heading-img{
     height: 650px;
     width: 100%;
-    background-image: url(../../burgerBack-image.png);
+    background-image: url(../Burger-PSD/PHOTOS/burgerBack-image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -277,7 +277,7 @@ body{
 #barry-img{
     height: 650px;
     width: 100%;
-    background-image: url(../../big\ image.png);
+    background-image: url(../Burger-PSD/PHOTOS/big\ image.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

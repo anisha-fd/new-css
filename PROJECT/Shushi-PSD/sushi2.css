@@ -26,7 +26,7 @@ nav{
     justify-content: space-between;
 }
 header{
-    background-image: url(../../backImage.sushi.png);
+    background-image: url(../Shushi-PSD/PHOTOS/backImage.sushi.png);
     height: 700px;
     width: 100%;
 }
@@ -170,7 +170,7 @@ header{
 }
 
 #page-6{
-    background-image: url(../../bagraound-page6.png);
+    background-image: url(../Shushi-PSD/PHOTOS/bagraound-page6.png);
 }
 .lady{
     /* background-color: rgba(33, 36, 61, 0.9); */
@@ -372,7 +372,7 @@ header{
 
   @media (max-width: 768px){
     header{
-      background-image: url(../backImage.sushi.png);
+      background-image: url(../Shushi-PSD/PHOTOS/backImage.sushi.png);
       height: 550px;
       width: 100%;
   }
