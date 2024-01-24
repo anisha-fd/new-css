@@ -1,7 +1,7 @@
 
         
         .box{
-
+            background-image: linear-gradient(to top,rgba(0,0,0,0.8)0,rgba(0,0,0,0)60%,rgba(0,0,0,0.8)100%);
             background-image: url(../Netflix-Website/PHOTOS/netflix\ image.jpg);
             color: white;
             height: 700px;
@@ -18,7 +18,7 @@
 
          }  
          .content{
-    
+            
             display: flex;
             justify-content: space-between;
          } 
@@ -33,6 +33,11 @@
             height: 40px;
             width: 300px;
          }
+         #English{
+            
+            height: 38px;
+            width: 30%;
+           }
          button{
             background-color: red;
             width: 150px;
@@ -127,3 +132,162 @@
             flex-direction: row;
             justify-content: space-evenly;
          }
+
+
+
+
+
+
+@media (max-width: 768px){
+   .box {
+      
+      color: white;
+      height: 700px;
+      width: 150%;
+  }
+  #English{
+   height: 38px;
+   width: 30%;
+  }
+  table{
+   width: 150%;
+  }
+  .m-image{
+   margin-left: -33px;
+  }
+  /* ------------apple tv strat here-------- */
+  .a-text{
+   font-size: 57px;
+   font-weight: 600;
+   width: -20px;
+ }
+ .apl-text{
+   font-size: 28px;
+   
+ }
+ /* ------apple tv page close here======== */
+
+ .cartoon-img{
+   margin-left: 20px;
+ }
+ .cartoon-text{
+   font-size: 48px;
+ }
+ .cartoon-p{
+   font-size: 21px;
+ }
+ /* =============cartton page close here============ */
+ .page-6{
+   width: 150%;
+ }
+ .sub-heading{
+   font-size: 20px;
+ }
+ .footer{
+   width: 150%;
+ }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 576px){
+   .box{
+
+      /* background-image: url(../Netflix-Website/PHOTOS/netflix\ image.jpg); */
+     
+      color: white;
+      height: 700px;
+      width: 199%;
+      
+   }
+   .content img{
+      width: 10%;
+      height: 70px;
+      font-size: 100px;
+   }
+ 
+   
+   .tv{
+      
+      flex-direction: column;
+   }
+   .t-text{
+      font-size: 39px;
+ }
+ .tv-ptext{
+    font-size: 34px;
+    font-weight: 400;
+ }
+ table{
+   width: 199%;
+
+ }
+ .m-image{
+   margin-left: 5px;
+ }
+ .m-text{
+   margin-left: -68px;
+   font-size: 39px;
+   width: -27px;
+ }
+ .p-text{
+   margin-left: -68px;
+   font-size: 26px;
+ }
+ /* -----------------moblie page close here---------- */
+
+ .a-text{
+   font-size: 41px;
+   font-weight: 600;
+   width: -20px;
+ }
+ .apl-text{
+   font-size: 28px;
+   
+ }
+ /*------------------ page-5 start here------------ */
+ .cartoon-img{
+   margin-left: 20px;
+ }
+ .cartoon-text{
+   font-size: 49px;
+ }
+ .cartoon-p{
+   font-size: 22px;
+ }
+ /* -----------------page-5 close here--------------- */
+ .page-6{
+   width: 199%;
+ }
+ .sub-heading{
+   font-size: 20px;
+ }
+ .footer{
+   width: 199%;
+ }
+  
+ }
+
+
+
+
+
+
+
+
+
+ 
