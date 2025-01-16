@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style: none;
     /* color-scheme: dark; */
 
@@ -15,7 +15,7 @@ body{
 #heading-img{
     height: 650px;
     width: 100%;
-    background-image: url(../Burger-PSD/PHOTOS/burgerBack-image.png);
+    background-image: url(./PHOTOS/burgerBack-image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ body{
 }
 #navbar{
     padding-top: 0.9%;
-    width: 96%;
+    /* width: 96%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +41,28 @@ body{
     font-size: 1.2rem;
     color: white;
 }
+#navmenu{
+    display: none;
+  }
+  
+  #navmenu{
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    position: relative;
+  }
+  .menu>li{
+  
+    padding-block: 9px ;
+    padding-inline: 0.9375rem;
+    font-weight: 912;
+    backdrop-filter: blur(54px);
+    
+  }
+  
+  .menu>li:hover{
+    border: 3px groove blueviolet ;
+  }
 /* navbar is close here */
 
 
@@ -515,6 +537,18 @@ body{
 
 
   @media (max-width: 768px){
+    #navlinks {
+        display: none;
+      }
+    
+      #navmenu {
+        display: inline;
+      }
+    
+      #logo>img {
+        width: 63%;
+      }
+    
     #navlink{
         display: contents;
     }
